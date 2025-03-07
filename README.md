@@ -1,6 +1,6 @@
 # 🎲 Dice Guessing Game 
 
-[![Play Now](https://img.shields.io/badge/Play%20Now-%F0%9F%8E%AE-blue?style=for-the-badge)](https://your-live-game-link.com)
+[![Play Now](https://img.shields.io/badge/Play%20Now-%F0%9F%8E%AE-blue?style=for-the-badge)](https://aastik7.github.io/dice-game/")
 
 ![ezgif-57049c9f585545](https://github.com/user-attachments/assets/a2d59661-085f-4ed4-a31c-4ed70e0b5f5c)
 
