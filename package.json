@@ -1,5 +1,6 @@
 {
   "name": "dice-game",
+  "homepage": "https://aastik7.github.io/dice-game/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +12,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/aastik7/dice-game/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
