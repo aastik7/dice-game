@@ -1,17 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useState } from "react";
-const RollDice = () => {
-  const [currentDice, setCurrentDice] = useState(1);
-
-  const generateRandomNumber = (min, max) => {
-    return Math.floor(Math.random() * (max - min) + min);
-  };
-
-  const rollDice = () => {
-    const randomNumber = generateRandomNumber(1, 7);
-    setCurrentDice((prev) => randomNumber);
-  };
+const RollDice = ({ currentDice, rollDice }) => {
   return (
     <DiceContainer>
       <div className="dice" onClick={rollDice}>
@@ -26,11 +16,13 @@ export default RollDice;
 
 const DiceContainer = styled.div`
   margin-top: 48px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 
   p {
+    margin-top: 0;
     font-size: 24px;
   }
 

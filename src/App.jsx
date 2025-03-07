@@ -10,7 +10,7 @@ const Button = styled.button`
 `;
 
 function App() {
-  const [isGameStart, setGameStart] = useState(true);
+  const [isGameStart, setGameStart] = useState(false);
   const toggleGame = () => setGameStart((prev) => !prev);
   return (
     <>
